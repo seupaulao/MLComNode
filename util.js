@@ -2,6 +2,12 @@ exports.xcabecalho = (raw) => {
     return raw[0].split(';').map(header => header.replace(/"/g, ''));
 }
 
+exports.getClasse = (obj) => {
+    if (obj.class == "Iris-setosa") return {'Iris-setosa': 1};
+    if (obj.class == "Iris-versicolor") return {'Iris-versicolor': 1};
+    if (obj.class == "Iris-virginica") return {'Iris-virginica': 1};
+}
+
 exports.wine2NN = (raw, cabecalho) => {
    return raw.
         slice(1).

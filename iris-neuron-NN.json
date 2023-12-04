@@ -1,0 +1,98 @@
+{
+  "type": "NeuralNetwork",
+  "sizes": [
+    4,
+    3,
+    3
+  ],
+  "layers": [
+    {
+      "weights": [],
+      "biases": []
+    },
+    {
+      "weights": [
+        [
+          -11.357213973999023,
+          -19.30328941345215,
+          31.0649356842041,
+          45.396278381347656
+        ],
+        [
+          15.428200721740723,
+          39.938941955566406,
+          -78.81536102294922,
+          -83.97434997558594
+        ],
+        [
+          -4.84158182144165,
+          7.442347049713135,
+          -20.965126037597656,
+          -7.9711503982543945
+        ]
+      ],
+      "biases": [
+        -10.524272918701172,
+        31.183624267578125,
+        6.1282057762146
+      ]
+    },
+    {
+      "weights": [
+        [
+          -10.737919807434082,
+          3.7182397842407227,
+          13.448838233947754
+        ],
+        [
+          -12.371744155883789,
+          24.38020896911621,
+          -26.328887939453125
+        ],
+        [
+          14.962328910827637,
+          -27.474245071411133,
+          -3.655359983444214
+        ]
+      ],
+      "biases": [
+        -10.299139022827148,
+        -5.756505012512207,
+        6.158581733703613
+      ]
+    }
+  ],
+  "inputLookup": {
+    "sepal_length": 0,
+    "sepal_width": 1,
+    "petal_length": 2,
+    "petal_width": 3
+  },
+  "inputLookupLength": 4,
+  "outputLookup": {
+    "Iris-setosa": 0,
+    "Iris-versicolor": 1,
+    "Iris-virginica": 2
+  },
+  "outputLookupLength": 3,
+  "options": {
+    "inputSize": 0,
+    "outputSize": 0,
+    "binaryThresh": 0.5
+  },
+  "trainOpts": {
+    "activation": "sigmoid",
+    "iterations": 20000,
+    "errorThresh": 0.005,
+    "log": false,
+    "logPeriod": 10,
+    "leakyReluAlpha": 0.01,
+    "learningRate": 0.3,
+    "momentum": 0.1,
+    "callbackPeriod": 10,
+    "timeout": "Infinity",
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-8
+  }
+}
