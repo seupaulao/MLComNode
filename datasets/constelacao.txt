@@ -9,3 +9,5 @@ This dataset contains the following:
 4.Meaning: Meaning or English translation for the name of the star.
 
 5.Brightest Star: Name of the star with the biggest magnitude in the constellation.
+
+o objetivo desse dataset é prever qual o nome da constelação
