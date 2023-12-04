@@ -1,0 +1,13 @@
+This dataset contains Names of stars and some information about these names.
+
+The information are:
+
+-Name: The proper or colloquial name for the star.
+
+-Constellation: The group of stars the star belongs to.
+
+-Bayern Designation: The ordered name for the star in the Bayern catalog of stars.
+
+-Designation: The ‘scientific’ name for the star in the IAU catalog. This is the name astronomers generally use.
+
+-Approval Date: The date the proper name was officially approved for the IAU catalog. Most names have been used for a much longer time though.

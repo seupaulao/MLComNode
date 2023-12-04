@@ -1,0 +1,11 @@
+This dataset contains the following:
+
+1.Name: The proper or colloquial name for the constellation.
+
+2.Abbreviation: A reduced version of the constellation name used generally to refer to the stars it contains.
+
+3.Genitive: The ‘scientific’ name for the constellation in the IAU catalog. This is the name used to give stars their scientific name, or “designation”.
+
+4.Meaning: Meaning or English translation for the name of the star.
+
+5.Brightest Star: Name of the star with the biggest magnitude in the constellation.

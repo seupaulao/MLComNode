@@ -1,0 +1,15 @@
+{
+  "name": "ml.treino",
+  "version": "1.0.0",
+  "description": "treino de ML com brain.js e tensorflow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paulo jr",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.23",
+    "lodash": "^4.17.21"
+  }
+}
